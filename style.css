@@ -1,0 +1,25 @@
+h3 {
+ font-size: 35px;
+ margin: 0px;
+ width: 100%;
+ box-shadow: 10px 10px 15px black;
+}
+
+.btn-warning:hover {
+    background-color: red;
+}
+ 
+canvas {
+    animation-name: Keeraan;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Keeraan{
+    from{
+        box-shadow: 5px 5px 10px black;
+    }
+    to{
+        box-shadow: 5px 5px 10px blue;
+    }
+}
